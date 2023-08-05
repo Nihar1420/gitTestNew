@@ -1,0 +1,17 @@
+The various commands learned till now -
+1] mkdir folder_name -> for making a new folder or directory
+2] cd folder_name -> change directory for entering into a folder or directory
+3] git init -> for initializing a git repository
+4] git status -> for knowing about unstaged files and git status
+5] git add file_name/. -> for adding files to the staging area
+6] git commit - m "Message_Name" -> for commiting the files in the git repository
+7] git log -> for seeing all the logs of the commits that has been made
+8] git reset commit_hash_id -> for getting back to the old commit whose id is passed
+9] git stash -> for moving the changed files to the stash area in which they are saved and dont reflect any changes
+10] git stash pop -> for adding the stashed files into the staging area again
+11] git stash clear -> for removing the files from the stash area also (remember these files can never be retrieved back)
+12] git remote add origin remote_git_repo_link -> for linking the local git repository to the github repository
+13] git push origin master -> for adding all the local files to the remote github repository
+14] git branch branch_name -> for creating a new branch
+15] git checkout branch_name -> for setting the branch as a head so if we now commit any changes then these are commited to the checkout branch.
+16] git merge branch_name -> for merging that branch to the main/master branch
