@@ -15,3 +15,15 @@ The various commands learned till now -
 14] git branch branch_name -> for creating a new branch
 15] git checkout branch_name -> for setting the branch as a head so if we now commit any changes then these are commited to the checkout branch.
 16] git merge branch_name -> for merging that branch to the main/master branch
+
+
+For contributing to an open source project -
+STEPS-
+1] Go to github and fork the project 
+2] Select a local folder and go inside that folder to run -> git clone project_url
+3] git clone project_url -> helps in cloning the remote project folder(repository) in the local folder
+4] git remote add upstream project_url -> for linking to the original online repo
+5] Make a new branch using -> git branch branch_name
+6] Then commit the changes in that new branch using -> git commit -m "message"
+7] Then push the changes as -> git push origin branch_name (here branch is the name of the new branch that is created)
+8] Here it will create a new pull request that will be tested and merged by the owner of the project to which you are contributing to.
