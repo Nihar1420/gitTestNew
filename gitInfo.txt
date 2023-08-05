@@ -1,4 +1,4 @@
-The various commands learned till now -
+The various commands to be learnt -
 1] mkdir folder_name -> for making a new folder or directory
 2] cd folder_name -> change directory for entering into a folder or directory
 3] git init -> for initializing a git repository
